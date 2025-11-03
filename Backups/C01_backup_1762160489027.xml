@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChapterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<id>635626059</id>
+	<gameName>FuneralParty</gameName>
+	<saveTime>1761831048612</saveTime>
+	<chapterName>C01</chapterName>
+	<editorVersion>1.68</editorVersion>
+	<characters><list>
+		<string>Main</string>
+	</list></characters>
+	<variables><list>
+	</list></variables>
+	<locations><list>
+	</list></locations>
+</ChapterData>

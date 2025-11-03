@@ -1,0 +1,325 @@
+Session started: 2025-11-03 10:47:11
+TIME(s)	TYPE	MESSAGE
+=======	====	=======
+0	Misc	Load chapter 1
+3	Edit	Add 2 nodes (flownode)
+15	Edit	Delete 2 nodes (flownode)
+97	Edit	Image offset changed Intro
+120	Edit	Move Door
+186	Edit	Delete TRANSIT (flownode)
+215	Edit	Add MainRoomC (location)
+234	Edit	Delete MainRoom (location)
+265	Edit	Delete MainRoomC (location)
+289	Edit	Add CMainRoom (location)
+296	Edit	Set background for CMainRoom
+312	Edit	Add BMainRoom (location)
+324	Edit	Add AMainRoom (location)
+367	Edit	Add TRANSIT (flownode)
+370	Edit	Move node (node)
+373	Edit	Connect node (flownode)
+374	Edit	Move node (node)
+376	Edit	Edit TRANSIT (flownode)
+380	Edit	Add TRANSIT (flownode)
+381	Edit	Move node (node)
+382	Edit	Connect node (flownode)
+386	Edit	Edit TRANSIT (flownode)
+390	Edit	Add TRANSIT (flownode)
+391	Edit	Move node (node)
+392	Edit	Connect node (flownode)
+395	Edit	Edit TRANSIT (flownode)
+399	Edit	Move node (node)
+401	Edit	Move node (node)
+402	Edit	Move node (node)
+428	Edit	Add A (interact)
+438	Edit	Zoom changed A
+438	Edit	Image offset changed A
+438	Edit	Set sprite for A
+440	Edit	Move A
+450	Edit	Add B (interact)
+457	Edit	Zoom changed B
+457	Edit	Image offset changed B
+457	Edit	Set sprite for B
+458	Edit	Move B
+467	Edit	Add C (interact)
+475	Edit	Zoom changed C
+475	Edit	Image offset changed C
+475	Edit	Set sprite for C
+476	Edit	Move C
+478	Misc	Save
+487	Misc	Play
+510	Misc	Stop play
+566	Edit	Move node (node)
+570	Edit	Delete TRANSIT (flownode)
+572	Edit	Add CONDITION (flownode)
+573	Edit	Move node (node)
+575	Edit	Connect node (flownode)
+592	Edit	Edit CONDITION (flownode)
+595	Edit	Connect node (flownode)
+598	Edit	Connect node (flownode)
+599	Edit	Connect node (flownode)
+602	Edit	Move node (node)
+605	Edit	Move node (node)
+608	Misc	Save
+616	Edit	Add TRANSIT (flownode)
+620	Edit	Edit TRANSIT (flownode)
+622	Edit	Move node (node)
+624	Edit	Connect node (flownode)
+630	Edit	Add TRANSIT (flownode)
+633	Edit	Add TRANSIT (flownode)
+633	Misc	Save
+637	Misc	Play
+666	Misc	Stop play
+708	Edit	Move C
+712	Edit	Move C
+1143	Edit	Change characters (character)
+1146	Edit	Move C
+1248	Edit	Move C
+1269	Edit	Move C
+1279	Edit	Move C
+1304	Edit	Loaction order change
+1325	Edit	Move C
+1328	Edit	Move C
+1354	Edit	Add CR1 (location)
+1372	Edit	Add CR2 (location)
+1387	Edit	Add CR3 (location)
+1398	Edit	Loaction order change
+1404	Edit	Loaction order change
+1411	Edit	Loaction order change
+1418	Edit	Move C
+1430	Edit	Add CD1 (interact)
+1433	Edit	Move CD1
+1439	Edit	Add CD2 (interact)
+1449	Edit	Add CD3 (interact)
+1453	Edit	Move CD3
+1454	Edit	Move CD2
+1455	Edit	Move CD1
+1461	Edit	Add TRANSIT (flownode)
+1463	Edit	Move node (node)
+1464	Edit	Connect node (flownode)
+1468	Edit	Edit TRANSIT (flownode)
+1475	Edit	Add TRANSIT (flownode)
+1476	Edit	Move node (node)
+1477	Edit	Connect node (flownode)
+1480	Edit	Edit TRANSIT (flownode)
+1487	Edit	Add TRANSIT (flownode)
+1488	Edit	Move node (node)
+1489	Edit	Connect node (flownode)
+1492	Edit	Edit TRANSIT (flownode)
+1493	Misc	Save
+1518	Edit	Add Alex (interact)
+1522	Edit	Move Alex
+1532	Edit	Add Devin (interact)
+1542	Edit	Move Devin
+1547	Edit	Add Bridgette (interact)
+1552	Edit	Add Cal (interact)
+1555	Misc	Save
+1558	Misc	Play
+1561	Misc	Stop play (forced)
+1578	Misc	Play from chapter 0
+1578	Misc	Load chapter 0
+1584	Misc	Load chapter 1
+1586	Misc	Stop play (forced)
+1596	Edit	Loaction order change
+1598	Misc	Save
+1601	Misc	Play
+1606	Misc	Stop play (forced)
+1838	Edit	Move Devin
+1845	Edit	Add FORK (flownode)
+1846	Edit	Move node (node)
+1847	Edit	Connect node (flownode)
+1848	Edit	Move node (node)
+1848	Edit	Move node (node)
+1862	Edit	Add DIALOG (flownode)
+1863	Edit	Move node (node)
+1864	Edit	Connect node (flownode)
+1932	Edit	Edit DIALOG (flownode)
+2075	Edit	Add CONDITION (flownode)
+2077	Edit	Delete CONDITION (flownode)
+2081	Edit	Add SET (flownode)
+2084	Edit	Add SET (flownode)
+2086	Edit	Disconnect node (flownode)
+2088	Edit	Move node (node)
+2090	Edit	Move node (node)
+2094	Edit	Connect node (flownode)
+2096	Edit	Connect node (flownode)
+2147	Edit	Edit SET (flownode)
+2154	Edit	Edit SET (flownode)
+2156	Edit	Move node (node)
+2157	Edit	Move node (node)
+2158	Edit	Move node (node)
+2158	Edit	Move node (node)
+2163	Edit	Add ACT (flownode)
+2166	Edit	Move node (node)
+2168	Edit	Move node (node)
+2171	Edit	Move node (node)
+2173	Edit	Move node (node)
+2174	Edit	Connect node (flownode)
+2175	Edit	Move node (node)
+2178	Edit	Add ACT (flownode)
+2179	Edit	Move node (node)
+2182	Edit	Connect node (flownode)
+2184	Edit	Move node (node)
+2204	Edit	Edit ACT (flownode)
+2205	Edit	Move node (node)
+2209	Edit	Edit ACT (flownode)
+2229	Edit	Add ACT (flownode)
+2230	Edit	Move node (node)
+2231	Edit	Connect node (flownode)
+2233	Edit	Connect node (flownode)
+2243	Edit	Edit ACT (flownode)
+2249	Edit	Add FORK (flownode)
+2251	Edit	Delete FORK (flownode)
+2255	Edit	Add CONDITION (flownode)
+2256	Edit	Move node (node)
+2258	Edit	Connect node (flownode)
+2261	Edit	Disconnect node (flownode)
+2265	Edit	Edit CONDITION (flownode)
+2267	Edit	Move node (node)
+2280	Edit	Move node (node)
+2282	Edit	Add ACT (flownode)
+2283	Edit	Move node (node)
+2285	Edit	Connect node (flownode)
+2286	Edit	Move node (node)
+2303	Edit	Edit ACT (flownode)
+2312	Edit	Add ACT (flownode)
+2313	Edit	Move node (node)
+2314	Edit	Connect node (flownode)
+2318	Edit	Edit ACT (flownode)
+2318	Edit	Move node (node)
+2320	Edit	Move node (node)
+2322	Edit	Move node (node)
+2323	Edit	Move node (node)
+2326	Edit	Move node (node)
+2329	Misc	Save
+2338	Edit	Move node (node)
+2342	Edit	Move node (node)
+2356	Misc	Save
+6183	Edit	Edit ACT (flownode)
+6187	Edit	Add DIALOG (flownode)
+6187	Edit	Move node (node)
+6189	Edit	Connect node (flownode)
+6199	Edit	Edit ACT (flownode)
+6199	Edit	Move node (node)
+6253	Edit	Edit DIALOG (flownode)
+6262	Edit	Add SET (flownode)
+6263	Edit	Move node (node)
+6265	Edit	Connect node (flownode)
+6266	Edit	Move node (node)
+6267	Edit	Move node (node)
+6276	Edit	Edit SET (flownode)
+6279	Edit	Move node (node)
+6282	Edit	Add ACT (flownode)
+6283	Edit	Move node (node)
+6284	Edit	Connect node (flownode)
+6286	Edit	Connect node (flownode)
+6294	Edit	Edit ACT (flownode)
+6299	Edit	Add ACT (flownode)
+6300	Edit	Move node (node)
+6301	Edit	Connect node (flownode)
+6302	Edit	Move node (node)
+6331	Edit	Edit ACT (flownode)
+6333	Edit	Move node (node)
+6338	Edit	Move node (node)
+6362	Edit	Edit ACT (flownode)
+6382	Edit	Move node (node)
+6414	Edit	Edit DIALOG (flownode)
+6447	Misc	Save
+6469	Edit	Add 14 nodes (flownode)
+6472	Edit	Move tree (node)
+6476	Edit	Connect node (flownode)
+6549	Edit	Edit DIALOG (flownode)
+6570	Edit	Edit ACT (flownode)
+6573	Edit	Edit ACT (flownode)
+6577	Edit	Edit ACT (flownode)
+6587	Edit	Edit ACT (flownode)
+6606	Edit	Move tree (node)
+6660	Edit	Add DIALOG (flownode)
+6662	Edit	Move node (node)
+6663	Edit	Connect node (flownode)
+6674	Edit	Edit DIALOG (flownode)
+6679	Edit	Connect node (flownode)
+6680	Edit	Move node (node)
+6682	Edit	Move node (node)
+6704	Edit	Disconnect node (flownode)
+6706	Edit	Add FORK (flownode)
+6707	Edit	Move node (node)
+6709	Edit	Connect node (flownode)
+6712	Edit	Move node (node)
+6714	Edit	Connect node (flownode)
+6721	Edit	Add DIALOG (flownode)
+6722	Undo	Add DIALOG (flownode)
+6724	Edit	Add ACT (flownode)
+6735	Edit	Edit ACT (flownode)
+6737	Edit	Connect node (flownode)
+6739	Edit	Move node (node)
+6742	Edit	Move node (node)
+6756	Edit	Disconnect node (flownode)
+6759	Edit	Connect node (flownode)
+6761	Edit	Move node (node)
+6762	Edit	Move node (node)
+6766	Edit	Move node (node)
+6767	Edit	Move node (node)
+6769	Edit	Move node (node)
+6771	Edit	Move node (node)
+6772	Edit	Move node (node)
+6773	Edit	Move node (node)
+6775	Edit	Move node (node)
+6776	Edit	Move node (node)
+6779	Edit	Move node (node)
+6782	Edit	Move node (node)
+6791	Misc	Save
+6795	Misc	Play
+6851	Misc	Stop play (forced)
+6852	Misc	Play
+6887	Misc	Stop play
+6892	Edit	Move node (node)
+6924	Edit	Edit ACT (flownode)
+6967	Edit	Edit ACT (flownode)
+6971	Edit	Move node (node)
+6999	Edit	Edit DIALOG (flownode)
+7000	Edit	Move node (node)
+7002	Edit	Move node (node)
+7003	Edit	Move node (node)
+7004	Edit	Move node (node)
+7005	Edit	Move node (node)
+7011	Edit	Edit SET (flownode)
+7013	Edit	Move node (node)
+7014	Edit	Move node (node)
+7033	Edit	Edit ACT (flownode)
+7035	Edit	Move node (node)
+7038	Edit	Move node (node)
+7047	Edit	Delete ACT (flownode)
+7051	Edit	Add FORK (flownode)
+7052	Edit	Move node (node)
+7053	Edit	Connect node (flownode)
+7054	Edit	Connect node (flownode)
+7059	Edit	Add ACT (flownode)
+7072	Edit	Edit ACT (flownode)
+7073	Edit	Move node (node)
+7074	Edit	Connect node (flownode)
+7076	Edit	Connect node (flownode)
+7078	Edit	Move node (node)
+7079	Edit	Move node (node)
+7081	Edit	Move node (node)
+7082	Edit	Move node (node)
+7083	Edit	Move node (node)
+7086	Edit	Add FORK (flownode)
+7100	Edit	Move node (node)
+7101	Edit	Move node (node)
+7102	Edit	Move node (node)
+7104	Edit	Move node (node)
+7106	Edit	Move node (node)
+7117	Edit	Move node (node)
+7118	Edit	Move node (node)
+7143	Edit	Edit DIALOG (flownode)
+7155	Edit	Connect node (flownode)
+7156	Edit	Move node (node)
+7158	Edit	Move node (node)
+7159	Edit	Move node (node)
+7163	Edit	Move node (node)
+7183	Edit	Move node (node)
+7325	Edit	Edit DIALOG (flownode)
+7326	Misc	Save
+7329	Misc	Export chapter
+7346	Misc	Load chapter 1
+7349	Misc	Quit

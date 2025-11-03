@@ -1,0 +1,7 @@
+Session started: 2025-11-03 10:28:50
+TIME(s)	TYPE	MESSAGE
+=======	====	=======
+0	Misc	Load chapter 1
+0	Misc	Show help idx 1
+8	Misc	Export chapter
+935	Misc	Quit

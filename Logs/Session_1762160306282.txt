@@ -1,0 +1,172 @@
+Session started: 2025-11-03 09:58:26
+TIME(s)	TYPE	MESSAGE
+=======	====	=======
+0	Misc	Load chapter 1
+1	Misc	Show help idx 1
+21	Misc	Load chapter 1
+55	Edit	Add Entrance (location)
+96	Edit	Add Backstory (interact)
+119	Edit	Add FORK (flownode)
+121	Edit	Connect node (flownode)
+123	Edit	Move node (node)
+124	Edit	Move node (node)
+137	Edit	Add ACT (flownode)
+139	Edit	Move node (node)
+140	Edit	Move node (node)
+151	Edit	Edit ACT (flownode)
+175	Edit	Delete 2 nodes (flownode)
+179	Edit	Add 2 nodes (flownode)
+182	Misc	Save
+185	Misc	Play
+190	Misc	Stop play (forced)
+193	Edit	Delete Backstory (interact)
+214	Edit	Add Door (interact)
+226	Edit	Add FORK (flownode)
+228	Edit	Move node (node)
+239	Edit	Add ACT (flownode)
+241	Edit	Move node (node)
+243	Edit	Connect node (flownode)
+244	Edit	Move node (node)
+255	Edit	Edit ACT (flownode)
+256	Misc	Save
+260	Misc	Play
+265	Misc	Stop play (forced)
+315	Edit	Add EntryHall (location)
+332	Edit	Add TRANSIT (flownode)
+334	Edit	Move node (node)
+335	Edit	Connect node (flownode)
+341	Edit	Edit TRANSIT (flownode)
+343	Edit	Move node (node)
+378	Misc	Save
+382	Misc	Play
+391	Misc	Load chapter 0
+394	Misc	Stop play (forced)
+394	Misc	Load chapter 1
+515	Edit	Change characters (character)
+535	Edit	Add Priest (interact)
+546	Edit	Delete Priest (interact)
+573	Edit	Add Intro (interact)
+587	Edit	Zoom changed Intro
+587	Edit	Image offset changed Intro
+587	Edit	Set sprite for Intro
+591	Edit	Move Intro
+614	Edit	Move Intro
+695	Edit	Add FORK (flownode)
+696	Edit	Move node (node)
+700	Edit	Connect node (flownode)
+705	Edit	Move node (node)
+760	Edit	Add ACT (flownode)
+761	Edit	Move node (node)
+763	Edit	Connect node (flownode)
+764	Edit	Move node (node)
+806	Edit	Edit ACT (flownode)
+807	Edit	Move node (node)
+815	Edit	Edit ACT (flownode)
+819	Edit	Add DIALOG (flownode)
+820	Edit	Connect node (flownode)
+823	Edit	Move node (node)
+861	Edit	Edit DIALOG (flownode)
+866	Edit	Move node (node)
+869	Edit	Add CONDITION (flownode)
+884	Edit	Delete CONDITION (flownode)
+886	Edit	Add SET (flownode)
+888	Edit	Move node (node)
+889	Misc	Play (debug)
+891	Misc	Stop play (forced)
+897	Misc	Play (debug)
+899	Misc	Stop play (forced)
+911	Edit	Add SET (flownode)
+912	Edit	Add SET (flownode)
+917	Edit	Disconnect node (flownode)
+918	Edit	Move node (node)
+920	Edit	Move node (node)
+922	Edit	Connect node (flownode)
+923	Edit	Connect node (flownode)
+925	Edit	Connect node (flownode)
+933	Edit	Edit SET (flownode)
+941	Edit	Edit SET (flownode)
+948	Edit	Edit SET (flownode)
+949	Edit	Move node (node)
+951	Misc	Save
+955	Misc	Play
+966	Misc	Stop play (forced)
+975	Edit	Move node (node)
+976	Edit	Move node (node)
+979	Edit	Move node (node)
+998	Edit	Add ACT (flownode)
+1000	Edit	Move node (node)
+1002	Edit	Connect node (flownode)
+1005	Edit	Add ACT (flownode)
+1005	Edit	Add ACT (flownode)
+1006	Edit	Move node (node)
+1007	Edit	Disconnect node (flownode)
+1009	Edit	Move node (node)
+1010	Edit	Connect node (flownode)
+1012	Edit	Connect node (flownode)
+1038	Edit	Edit ACT (flownode)
+1050	Edit	Edit ACT (flownode)
+1063	Edit	Edit ACT (flownode)
+1068	Edit	Move node (node)
+1086	Edit	Add TRANSIT (flownode)
+1088	Edit	Move node (node)
+1092	Edit	Connect node (flownode)
+1093	Edit	Connect node (flownode)
+1095	Edit	Connect node (flownode)
+1097	Edit	Move node (node)
+1139	Misc	Save
+1157	Edit	Add MainRoom (location)
+1168	Edit	Edit TRANSIT (flownode)
+1171	Misc	Save
+1181	Edit	Add ACT (flownode)
+1182	Edit	Move node (node)
+1185	Edit	Connect node (flownode)
+1196	Edit	Edit ACT (flownode)
+1197	Edit	Move node (node)
+1202	Edit	Add DIALOG (flownode)
+1204	Edit	Move node (node)
+1205	Edit	Connect node (flownode)
+1214	Edit	Edit DIALOG (flownode)
+1219	Edit	Add TRANSIT (flownode)
+1221	Edit	Add TRANSIT (flownode)
+1223	Edit	Move node (node)
+1225	Edit	Move node (node)
+1226	Edit	Connect node (flownode)
+1227	Edit	Connect node (flownode)
+1247	Edit	Edit TRANSIT (flownode)
+1251	Edit	Edit TRANSIT (flownode)
+1253	Misc	Save
+1265	Misc	Play
+1276	Misc	Load chapter 0
+1279	Misc	Stop play (forced)
+1279	Misc	Load chapter 1
+1287	Edit	Add Door (interact)
+1291	Edit	Add TRANSIT (flownode)
+1292	Edit	Connect node (flownode)
+1295	Edit	Edit TRANSIT (flownode)
+1297	Misc	Play
+1327	Misc	Stop play (forced)
+1336	Edit	Add ACT (flownode)
+1348	Edit	Edit ACT (flownode)
+1352	Edit	Connect node (flownode)
+1356	Edit	Add CODE (flownode)
+1359	Edit	Connect node (flownode)
+1364	Edit	Edit CODE (flownode)
+1366	Edit	Move node (node)
+1366	Misc	Save
+1374	Misc	Play
+1397	Misc	Stop play
+1449	Edit	Add ACT (flownode)
+1449	Edit	Move node (node)
+1452	Edit	Connect node (flownode)
+1453	Edit	Move node (node)
+1458	Edit	Add CODE (flownode)
+1460	Edit	Move node (node)
+1461	Edit	Connect node (flownode)
+1471	Edit	Edit ACT (flownode)
+1483	Edit	Move node (node)
+1486	Misc	Save
+1494	Misc	Play
+1508	Misc	Load chapter 0
+1511	Misc	Stop play (forced)
+1511	Misc	Load chapter 1
+1518	Misc	Quit

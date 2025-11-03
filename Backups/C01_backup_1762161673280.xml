@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChapterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<id>635626059</id>
+	<gameName>FuneralParty</gameName>
+	<saveTime>1762161604191</saveTime>
+	<chapterName>C01</chapterName>
+	<editorVersion>1.68</editorVersion>
+	<characters><list>
+		<string>Main</string>
+		<string>Priest</string>
+	</list></characters>
+	<variables><list>
+		<string>isAlex</string>
+		<string>isBridgette</string>
+		<string>isCharlie</string>
+	</list></variables>
+	<locations><list>
+		<LocationData>
+			<id>723100117</id>
+			<locationName>Entrance</locationName>
+			<chapterName>C01</chapterName>
+			<enterInteraction>
+				<id>175913938</id>
+				<interactionName>Enter</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>1</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>237826173</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>230754836</id>
+							<connectedToId>930455450</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionForkNode"> 
+						<id>930455450</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>429783267</id>
+							<connectedToId>953122771</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+						<Output xsi:type="Output"> 
+							<id>247557386</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>true</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>210</xPos> 
+						<yPos>100</yPos> 
+						<firstTimeTargetNode>953122771</firstTimeTargetNode>
+						<defaultOutput>-1</defaultOutput>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionActNode"> 
+						<id>953122771</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>877994079</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>320</xPos> 
+						<yPos>100</yPos> 
+						<sequenceNr>1</sequenceNr>
+						<commentText></commentText>
+						<lines><list>
+							<ActLine>
+								<id>641057104</id>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_Entrance_Enter_A01_L01</audioID>
+									<textToEditor>Backstory</textToEditor>
+									<textToUnity>Backstory</textToUnity>
+								</voiceactingData>
+								<character>Main</character>
+								<preDelayMS>0</preDelayMS>
+								<emotionFlag>neutral</emotionFlag>
+								<innerMonolog>true</innerMonolog>
+							</ActLine>
+						</list></lines>
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</enterInteraction>
+			<exitInteraction>
+				<id>806167521</id>
+				<interactionName>Exit</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>605644677</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>829652485</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</exitInteraction>
+			<locationInteractions><list>
+				<InteractionData>
+					<id>292724778</id>
+					<interactionName>Door</interactionName>
+					<voiceactingData xsi:type="VoiceData"> 
+						<audioID>C01_Entrance_Door</audioID>
+						<textToEditor></textToEditor>
+						<textToUnity></textToUnity>
+					</voiceactingData>
+					<x>0.470276</x>
+					<y>0.69187146</y>
+					<dialogCounters>0</dialogCounters>
+					<actNodeCounters>1</actNodeCounters>
+					<imageOffsetX>0</imageOffsetX>
+					<imageOffsetY>0</imageOffsetY>
+					<zoom>100</zoom>
+					<conditions><list>
+					</list></conditions>
+					<comments><list>
+					</list></comments>
+					<flowNodes><list>
+						<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+							<id>471523028</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>465008287</id>
+								<connectedToId>118926260</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>100</xPos> 
+							<yPos>100</yPos> 
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionForkNode"> 
+							<id>118926260</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>505005088</id>
+								<connectedToId>375460738</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+							<Output xsi:type="Output"> 
+								<id>977502323</id>
+								<connectedToId>-1</connectedToId>
+								<isDefault>true</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>194</xPos> 
+							<yPos>100</yPos> 
+							<firstTimeTargetNode>375460738</firstTimeTargetNode>
+							<defaultOutput>-1</defaultOutput>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>375460738</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>233802297</id>
+								<connectedToId>338082738</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>295</xPos> 
+							<yPos>102</yPos> 
+							<sequenceNr>1</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>743193412</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_Entrance_Door_A01_L01</audioID>
+										<textToEditor>Here we go...</textToEditor>
+										<textToUnity>Here we go...</textToUnity>
+									</voiceactingData>
+									<character>Main</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>true</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionTransitionNode"> 
+							<id>338082738</id>
+							<xPos>399</xPos> 
+							<yPos>102</yPos> 
+							<targetLocation>EntryHall</targetLocation>
+						</InteractionFlowNode>
+					</list></flowNodes>
+				</InteractionData>
+			</list></locationInteractions>
+		</LocationData>
+		<LocationData>
+			<id>48740490</id>
+			<locationName>EntryHall</locationName>
+			<chapterName>C01</chapterName>
+			<enterInteraction>
+				<id>321219726</id>
+				<interactionName>Enter</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>621566988</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>134067167</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</enterInteraction>
+			<exitInteraction>
+				<id>299933505</id>
+				<interactionName>Exit</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>151145411</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>88801367</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</exitInteraction>
+			<locationInteractions><list>
+				<InteractionData>
+					<id>169279796</id>
+					<interactionName>Intro</interactionName>
+					<voiceactingData xsi:type="VoiceData"> 
+						<audioID>C01_EntryHall_Intro</audioID>
+						<textToEditor></textToEditor>
+						<textToUnity></textToUnity>
+					</voiceactingData>
+					<x>0.45753714</x>
+					<y>0.58034027</y>
+					<dialogCounters>2</dialogCounters>
+					<actNodeCounters>5</actNodeCounters>
+					<imageOffsetX>0</imageOffsetX>
+					<imageOffsetY>0</imageOffsetY>
+					<zoom>100</zoom>
+					<conditions><list>
+					</list></conditions>
+					<comments><list>
+					</list></comments>
+					<flowNodes><list>
+						<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+							<id>929835209</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>757705653</id>
+								<connectedToId>486509137</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>54</xPos> 
+							<yPos>107</yPos> 
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionForkNode"> 
+							<id>486509137</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>242261143</id>
+								<connectedToId>573947551</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+							<Output xsi:type="Output"> 
+								<id>446456053</id>
+								<connectedToId>921174835</connectedToId>
+								<isDefault>true</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>184</xPos> 
+							<yPos>107</yPos> 
+							<firstTimeTargetNode>573947551</firstTimeTargetNode>
+							<defaultOutput>921174835</defaultOutput>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>573947551</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>595230672</id>
+								<connectedToId>990957026</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>275</xPos> 
+							<yPos>104</yPos> 
+							<sequenceNr>1</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>522904307</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_EntryHall_Intro_A01_L01</audioID>
+										<textToEditor>Pick character</textToEditor>
+										<textToUnity>Pick character</textToUnity>
+									</voiceactingData>
+									<character>Priest</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>false</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>921174835</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>20433350</id>
+								<connectedToId>57217240</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>313</xPos> 
+							<yPos>315</yPos> 
+							<sequenceNr>5</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>743161586</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_EntryHall_Intro_A05_L01</audioID>
+										<textToEditor>Leaving?</textToEditor>
+										<textToUnity>Leaving?</textToUnity>
+									</voiceactingData>
+									<character>Priest</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>false</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionDialogNode"> 
+							<id>990957026</id>
+						<outputs><list>
+							<Output xsi:type="DialogChoice"> 
+								<id>260972420</id>
+								<connectedToId>778585960</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_EntryHall_Intro_D01_L01</audioID>
+									<textToEditor>Alex</textToEditor>
+									<textToUnity>Alex</textToUnity>
+								</voiceactingData>
+								<conditions><list>
+								</list></conditions>
+							</Output>
+							<Output xsi:type="DialogChoice"> 
+								<id>678139493</id>
+								<connectedToId>520736721</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_EntryHall_Intro_D01_L02</audioID>
+									<textToEditor>Bridgette</textToEditor>
+									<textToUnity>Bridgette</textToUnity>
+								</voiceactingData>
+								<conditions><list>
+								</list></conditions>
+							</Output>
+							<Output xsi:type="DialogChoice"> 
+								<id>574996227</id>
+								<connectedToId>358021826</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_EntryHall_Intro_D01_L03</audioID>
+									<textToEditor>Charlie</textToEditor>
+									<textToUnity>Charlie</textToUnity>
+								</voiceactingData>
+								<conditions><list>
+								</list></conditions>
+							</Output>
+						</list></outputs>
+							<xPos>367</xPos> 
+							<yPos>104</yPos> 
+							<sequenceNr>1</sequenceNr>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionDialogNode"> 
+							<id>57217240</id>
+						<outputs><list>
+							<Output xsi:type="DialogChoice"> 
+								<id>516845036</id>
+								<connectedToId>752520517</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_EntryHall_Intro_D02_L01</audioID>
+									<textToEditor>Yes</textToEditor>
+									<textToUnity>Yes</textToUnity>
+								</voiceactingData>
+								<conditions><list>
+								</list></conditions>
+							</Output>
+							<Output xsi:type="DialogChoice"> 
+								<id>82937452</id>
+								<connectedToId>2390407</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C01_EntryHall_Intro_D02_L02</audioID>
+									<textToEditor>No</textToEditor>
+									<textToUnity>No</textToUnity>
+								</voiceactingData>
+								<conditions><list>
+								</list></conditions>
+							</Output>
+						</list></outputs>
+							<xPos>413</xPos> 
+							<yPos>318</yPos> 
+							<sequenceNr>2</sequenceNr>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionSetConditionNode"> 
+							<id>520736721</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>8414428</id>
+								<connectedToId>520606805</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>472</xPos> 
+							<yPos>112</yPos> 
+							<conditionID>isBridgette</conditionID>
+							<state>true</state>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionSetConditionNode"> 
+							<id>358021826</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>903359447</id>
+								<connectedToId>615672286</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>472</xPos> 
+							<yPos>194</yPos> 
+							<conditionID>isCharlie</conditionID>
+							<state>true</state>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionSetConditionNode"> 
+							<id>778585960</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>158618066</id>
+								<connectedToId>14381706</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>477</xPos> 
+							<yPos>32</yPos> 
+							<conditionID>isAlex</conditionID>
+							<state>true</state>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionTransitionNode"> 
+							<id>752520517</id>
+							<xPos>507</xPos> 
+							<yPos>271</yPos> 
+							<targetLocation>Entrance</targetLocation>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionTransitionNode"> 
+							<id>2390407</id>
+							<xPos>510</xPos> 
+							<yPos>354</yPos> 
+							<targetLocation>MainRoom</targetLocation>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>615672286</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>220204480</id>
+								<connectedToId>138577255</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>565</xPos> 
+							<yPos>192</yPos> 
+							<sequenceNr>4</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>233065780</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_EntryHall_Intro_A04_L01</audioID>
+										<textToEditor>Im Charlie&apos;s inner thoughts</textToEditor>
+										<textToUnity>Im Charlie&apos;s inner thoughts</textToUnity>
+									</voiceactingData>
+									<character>Main</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>true</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>520606805</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>521281999</id>
+								<connectedToId>138577255</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>569</xPos> 
+							<yPos>110</yPos> 
+							<sequenceNr>3</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>234012619</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_EntryHall_Intro_A03_L01</audioID>
+										<textToEditor>Im Bridgette&apos;s inner thoughts</textToEditor>
+										<textToUnity>Im Bridgette&apos;s inner thoughts</textToUnity>
+									</voiceactingData>
+									<character>Main</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>true</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionActNode"> 
+							<id>14381706</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>706433879</id>
+								<connectedToId>138577255</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>573</xPos> 
+							<yPos>31</yPos> 
+							<sequenceNr>2</sequenceNr>
+							<commentText></commentText>
+							<lines><list>
+								<ActLine>
+									<id>648190056</id>
+									<voiceactingData xsi:type="VoiceData"> 
+										<audioID>C01_EntryHall_Intro_A02_L01</audioID>
+										<textToEditor>Im Alex&apos;s inner thoughts</textToEditor>
+										<textToUnity>Im Alex&apos;s inner thoughts</textToUnity>
+									</voiceactingData>
+									<character>Main</character>
+									<preDelayMS>0</preDelayMS>
+									<emotionFlag>neutral</emotionFlag>
+									<innerMonolog>true</innerMonolog>
+								</ActLine>
+							</list></lines>
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionTransitionNode"> 
+							<id>138577255</id>
+							<xPos>684</xPos> 
+							<yPos>108</yPos> 
+							<targetLocation>MainRoom</targetLocation>
+						</InteractionFlowNode>
+					</list></flowNodes>
+				</InteractionData>
+			</list></locationInteractions>
+		</LocationData>
+		<LocationData>
+			<id>61748642</id>
+			<locationName>MainRoom</locationName>
+			<chapterName>C01</chapterName>
+			<enterInteraction>
+				<id>379933006</id>
+				<interactionName>Enter</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>526872812</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>645950909</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</enterInteraction>
+			<exitInteraction>
+				<id>691408696</id>
+				<interactionName>Exit</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>461298945</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>555067166</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</exitInteraction>
+			<locationInteractions><list>
+				<InteractionData>
+					<id>428509136</id>
+					<interactionName>Door</interactionName>
+					<voiceactingData xsi:type="VoiceData"> 
+						<audioID>C01_MainRoom_Door</audioID>
+						<textToEditor></textToEditor>
+						<textToUnity></textToUnity>
+					</voiceactingData>
+					<x>0.5240623</x>
+					<y>0.5217391</y>
+					<dialogCounters>0</dialogCounters>
+					<actNodeCounters>0</actNodeCounters>
+					<imageOffsetX>0</imageOffsetX>
+					<imageOffsetY>0</imageOffsetY>
+					<zoom>100</zoom>
+					<conditions><list>
+					</list></conditions>
+					<comments><list>
+					</list></comments>
+					<flowNodes><list>
+						<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+							<id>634095760</id>
+						<outputs><list>
+							<Output xsi:type="Output"> 
+								<id>8899444</id>
+								<connectedToId>159223106</connectedToId>
+								<isDefault>false</isDefault>
+								<commentText></commentText>
+							</Output>
+						</list></outputs>
+							<xPos>100</xPos> 
+							<yPos>100</yPos> 
+						</InteractionFlowNode>
+						<InteractionFlowNode xsi:type="InteractionTransitionNode"> 
+							<id>159223106</id>
+							<xPos>196</xPos> 
+							<yPos>126</yPos> 
+							<targetLocation>EntryHall</targetLocation>
+						</InteractionFlowNode>
+					</list></flowNodes>
+				</InteractionData>
+			</list></locationInteractions>
+		</LocationData>
+	</list></locations>
+</ChapterData>

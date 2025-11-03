@@ -1,0 +1,28 @@
+<gameStateData>
+   <chapterName>C00</chapterName>
+   <activeLocation>MainMenuIntro</activeLocation>
+   <activeInteractable>Enter</activeInteractable>
+   <activeFlowNode>318305021</activeFlowNode>
+   <variables>
+      <mVariablesList>
+         <list>
+            <object class="se.deig.core.logic.engine.gamedata.BooleanVariable">
+               <mVariableName>hasSaveData</mVariableName>
+               <mValue>true</mValue>
+            </object>
+         </list>
+      </mVariablesList>
+   </variables>
+   <inCutscene>false</inCutscene>
+   <forkNodesVisitedList>
+      <hashSet/>
+   </forkNodesVisitedList>
+   <actLinesPlayedList>
+      <hashSet>
+         <object class="java.lang.Long">78267268</object>
+      </hashSet>
+   </actLinesPlayedList>
+   <savefileName>Player1</savefileName>
+   <chapterNotStarted>false</chapterNotStarted>
+   <gameOver>false</gameOver>
+</gameStateData>

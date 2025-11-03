@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChapterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<id>354727466</id>
+	<gameName>Demo</gameName>
+	<saveTime>1731945078846</saveTime>
+	<chapterName>C00</chapterName>
+	<editorVersion>1.55</editorVersion>
+	<characters><list>
+		<string>Main</string>
+	</list></characters>
+	<variables><list>
+		<string>hasSaveData</string>
+	</list></variables>
+	<locations><list>
+		<LocationData>
+			<id>750024515</id>
+			<locationName>MainMenuIntro</locationName>
+			<chapterName>C00</chapterName>
+			<enterInteraction>
+				<id>260684399</id>
+				<interactionName>Enter</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>2</dialogCounters>
+				<actNodeCounters>2</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>926087279</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>745313092</id>
+							<connectedToId>388302110</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>99</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionCodeNode"> 
+						<id>388302110</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>629274700</id>
+							<connectedToId>87649083</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+						<Output xsi:type="Output"> 
+							<id>936894729</id>
+							<connectedToId>818016238</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>189</xPos> 
+						<yPos>100</yPos> 
+						<function>CheckStatus</function>
+						<parameters><list>
+							<CodenodeParameter><name>toCheck</name><value>GameOver</value><type>CheckStatus</type></CodenodeParameter>
+						</list></parameters>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionCodeNode"> 
+						<id>818016238</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>509500839</id>
+							<connectedToId>87649083</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>279</xPos> 
+						<yPos>342</yPos> 
+						<function>Other</function>
+						<parameters><list>
+							<CodenodeParameter><name>function</name><value>ClearSavedata</value><type>Setother</type></CodenodeParameter>
+						</list></parameters>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionCodeNode"> 
+						<id>87649083</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>657255773</id>
+							<connectedToId>892692751</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+						<Output xsi:type="Output"> 
+							<id>748163241</id>
+							<connectedToId>597617043</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>313</xPos> 
+						<yPos>101</yPos> 
+						<function>CheckStatus</function>
+						<parameters><list>
+							<CodenodeParameter><name>toCheck</name><value>HasSaveData</value><type>CheckStatus</type></CodenodeParameter>
+						</list></parameters>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionSetConditionNode"> 
+						<id>892692751</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>454439562</id>
+							<connectedToId>333785567</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>403</xPos> 
+						<yPos>101</yPos> 
+						<conditionID>hasSaveData</conditionID>
+						<state>false</state>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionSetConditionNode"> 
+						<id>597617043</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>371609668</id>
+							<connectedToId>333785567</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>403</xPos> 
+						<yPos>269</yPos> 
+						<conditionID>hasSaveData</conditionID>
+						<state>true</state>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionDialogNode"> 
+						<id>333785567</id>
+					<outputs><list>
+						<Output xsi:type="DialogChoice"> 
+							<id>505669392</id>
+							<connectedToId>144556915</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+							<voiceactingData xsi:type="VoiceData"> 
+								<audioID>C00_MainMenuIntro_Enter_D01_L01</audioID>
+								<textToEditor>New Game</textToEditor>
+								<textToUnity>New Game</textToUnity>
+							</voiceactingData>
+							<conditions><list>
+							</list></conditions>
+						</Output>
+						<Output xsi:type="DialogChoice"> 
+							<id>325995953</id>
+							<connectedToId>878537871</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+							<voiceactingData xsi:type="VoiceData"> 
+								<audioID>C00_MainMenuIntro_Enter_D01_L02</audioID>
+								<textToEditor>Continue</textToEditor>
+								<textToUnity>Continue</textToUnity>
+							</voiceactingData>
+							<conditions><list>
+								<Condition>
+									<id>989433118</id>
+									<conditionID>hasSaveData</conditionID>
+									<evaluationState>true</evaluationState>
+									<comparisonOperator>==</comparisonOperator>
+								</Condition>
+							</list></conditions>
+						</Output>
+					</list></outputs>
+						<xPos>493</xPos> 
+						<yPos>101</yPos> 
+						<sequenceNr>1</sequenceNr>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionGetConditionNode"> 
+						<id>144556915</id>
+					<outputs><list>
+						<Output xsi:type="FlowCondition"> 
+							<id>192285915</id>
+							<connectedToId>318305021</connectedToId>
+							<isDefault>true</isDefault>
+							<commentText></commentText>
+							<conditions><list>
+							</list></conditions>
+						</Output>
+						<Output xsi:type="FlowCondition"> 
+							<id>234417337</id>
+							<connectedToId>444122725</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+							<conditions><list>
+							<Condition>
+								<id>981155781</id>
+								<conditionID>hasSaveData</conditionID>
+								<evaluationState>true</evaluationState>
+								<comparisonOperator>==</comparisonOperator>
+							</Condition>
+							</list></conditions>
+						</Output>
+					</list></outputs>
+						<xPos>583</xPos> 
+						<yPos>101</yPos> 
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionCodeNode"> 
+						<id>878537871</id>
+						<xPos>583</xPos> 
+						<yPos>195</yPos> 
+						<function>Game</function>
+						<parameters><list>
+							<CodenodeParameter><name>parameter</name><value>Continue</value><type>Game</type></CodenodeParameter>
+						</list></parameters>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionActNode"> 
+						<id>444122725</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>315114963</id>
+							<connectedToId>924202176</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>673</xPos> 
+						<yPos>101</yPos> 
+						<sequenceNr>2</sequenceNr>
+						<commentText></commentText>
+						<authorName>Henrik</authorName>
+						<lines><list>
+							<ActLine>
+								<id>78267268</id>
+								<voiceactingData xsi:type="VoiceData"> 
+									<audioID>C00_MainMenuIntro_Enter_A02_L01</audioID>
+									<textToEditor>Are you sure you want to start a new game?
+The previous save file will be lost.</textToEditor>
+									<textToUnity>Are you sure you want to start a new game?
+The previous save file will be lost.</textToUnity>
+								</voiceactingData>
+								<character>Main</character>
+								<preDelayMS>0</preDelayMS>
+								<emotionFlag>neutral</emotionFlag>
+								<innerMonolog>false</innerMonolog>
+							</ActLine>
+						</list></lines>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionDialogNode"> 
+						<id>924202176</id>
+					<outputs><list>
+						<Output xsi:type="DialogChoice"> 
+							<id>958525927</id>
+							<connectedToId>318305021</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+							<voiceactingData xsi:type="VoiceData"> 
+								<audioID>C00_MainMenuIntro_Enter_D02_L01</audioID>
+								<textToEditor>Yes</textToEditor>
+								<textToUnity>Yes</textToUnity>
+							</voiceactingData>
+							<conditions><list>
+							</list></conditions>
+						</Output>
+						<Output xsi:type="DialogChoice"> 
+							<id>420401160</id>
+							<connectedToId>333785567</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+							<voiceactingData xsi:type="VoiceData"> 
+								<audioID>C00_MainMenuIntro_Enter_D02_L02</audioID>
+								<textToEditor>No</textToEditor>
+								<textToUnity>No</textToUnity>
+							</voiceactingData>
+							<conditions><list>
+							</list></conditions>
+						</Output>
+					</list></outputs>
+						<xPos>763</xPos> 
+						<yPos>101</yPos> 
+						<sequenceNr>2</sequenceNr>
+					</InteractionFlowNode>
+					<InteractionFlowNode xsi:type="InteractionCodeNode"> 
+						<id>318305021</id>
+						<xPos>853</xPos> 
+						<yPos>101</yPos> 
+						<function>Game</function>
+						<parameters><list>
+							<CodenodeParameter><name>parameter</name><value>New</value><type>Game</type></CodenodeParameter>
+						</list></parameters>
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</enterInteraction>
+			<exitInteraction>
+				<id>34789107</id>
+				<interactionName>Exit</interactionName>
+				<voiceactingData xsi:type="VoiceData"> 
+					<audioID>null</audioID>
+					<textToEditor></textToEditor>
+					<textToUnity></textToUnity>
+				</voiceactingData>
+				<dialogCounters>0</dialogCounters>
+				<actNodeCounters>0</actNodeCounters>
+				<imageOffsetX>0</imageOffsetX>
+				<imageOffsetY>0</imageOffsetY>
+				<zoom>100</zoom>
+				<conditions><list>
+				</list></conditions>
+				<comments><list>
+				</list></comments>
+				<flowNodes><list>
+					<InteractionFlowNode xsi:type="InteractionFlowStart"> 
+						<id>197622606</id>
+					<outputs><list>
+						<Output xsi:type="Output"> 
+							<id>29780009</id>
+							<connectedToId>-1</connectedToId>
+							<isDefault>false</isDefault>
+							<commentText></commentText>
+						</Output>
+					</list></outputs>
+						<xPos>100</xPos> 
+						<yPos>100</yPos> 
+					</InteractionFlowNode>
+				</list></flowNodes>
+			</exitInteraction>
+			<locationInteractions><list>
+			</list></locationInteractions>
+		</LocationData>
+	</list></locations>
+</ChapterData>

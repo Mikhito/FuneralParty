@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<gameName>FuneralParty</gameName>
+	<gameID>gameID_52ea429e-b7ae-4472-90bb-3028231aa99e</gameID>
+	<editorVersion>1.68</editorVersion>
+	<menuLevelName>C00</menuLevelName>
+	<isSwedish>false</isSwedish>
+	<characters><list>
+		<character>
+			<name>Main</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (South Africa)</language>
+				<voiceName>Alyssa</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+				<voice>
+					<ttsEngine>PC TTS</ttsEngine>
+					<language>Unspecified</language>
+					<voiceName>Microsoft David Desktop</voiceName>
+					<speed>0</speed>
+					<pitch>0</pitch>
+					<volume>100</volume>
+				</voice>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Priest</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (Australia)</language>
+				<voiceName>Jack</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+				<voice>
+					<ttsEngine>PC TTS</ttsEngine>
+					<language>Unspecified</language>
+					<voiceName>Microsoft David Desktop</voiceName>
+					<speed>0</speed>
+					<pitch>0</pitch>
+					<volume>100</volume>
+				</voice>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Alex</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (US)</language>
+				<voiceName>Lizzy</voiceName>
+				<speed>-5</speed>
+				<pitch>0</pitch>
+				<volume>50</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Bridgette</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (US)</language>
+				<voiceName>Paul</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Charlie</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (Australia)</language>
+				<voiceName>Jack</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Cal</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (Australia)</language>
+				<voiceName>Jack</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Devin</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>English (Scottish)</language>
+				<voiceName>Iona</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+		<character>
+			<name>Eddie</name>
+			<voice>
+				<ttsEngine>Readspeaker TTS</ttsEngine>
+				<language>Swedish</language>
+				<voiceName>Maja</voiceName>
+				<speed>0</speed>
+				<pitch>0</pitch>
+				<volume>100</volume>
+			</voice>
+			<altVoices><list>
+			</list></altVoices>
+		</character>
+	</list></characters>
+	<chapterNames><list>
+			<string>C01</string> 
+	</list></chapterNames>
+</GameData>
